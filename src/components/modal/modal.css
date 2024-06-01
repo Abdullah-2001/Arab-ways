@@ -1,0 +1,9 @@
+.outline-custom:focus {
+    outline: none !important;
+    border: none !important;
+    --tw-ring-color: none;
+    --tw-ring-offset-shadow: none;
+    overflow: hidden !important;
+    /* resize: none !important; */
+}
+

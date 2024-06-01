@@ -1,0 +1,77 @@
+.country-select-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.country-select {
+    width: 100%;
+    flex-direction: row-reverse !important;
+}
+
+.css-t3ipsp-control,
+.css-13cymwt-control {
+    border: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    min-height: 54px !important;
+    height: 54px !important;
+    border: none !important;
+    padding: 0 15px !important;
+    border-radius: 4px !important;
+    background: #F1F1FF !important;
+    outline: none !important;
+    width: 100% !important;
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    flex-direction: row-reverse !important;
+}
+
+.css-1fdsijx-ValueContainer {
+    border-right: 0;
+    padding: 0 !important;
+}
+
+.css-1u9des2-indicatorSeparator {
+    display: none;
+}
+
+.css-1jqq78o-placeholder,
+.css-qbdosj-Input {
+    font-size: 0.9rem !important;
+    line-height: 1.5rem !important;
+    font-family: Inter, sans-serif;
+    font-weight: 400 !important;
+}
+
+.css-qbdosj-Input {
+    color: hsl(240deg 4.71% 62.55%);
+}
+
+#react-select-3-input {
+    width: 100% !important;
+    outline: none !important;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list p {
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.list .list-icon {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,23 @@
+/* Scroll bar style for the entire page */
+::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+    border-radius: 6px; /* Rounded shape */
+  }
+  
+  /* Track (the background) */
+  ::-webkit-scrollbar-track {
+    background: #fff; /* Black background color for track */
+    border-radius: 6px; /* Rounded shape */
+  }
+  
+  /* Handle (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #8d8d8d; /* Black color for the handle */
+    border-radius: 6px; /* Rounded shape */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000; /* Change color on hover */
+  }
+  

@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* input[type=text] {
+    text-align: right;
+}
+
+input::placeholder {
+    text-align: right;
+} */
+
+.layout-container {
+    position: relative;
+    display: flex;
+    /* Add this to create a flex layout */
+    height: 100vh;
+    /* Ensure full viewport height */
+    overflow: hidden;
+    /* Prevent overflow issues */
+}
+
+/* for left side */
+.content-container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: 113px;
+    margin-left: 260px;
+    /* padding: 20px 16px 16px; */
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* for right side */
+.content-container-right {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: 113px;
+    margin-left: 0;
+    margin-right: 333px;
+    /* padding: 20px 16px 16px; */
+    overflow-y: auto;
+    flex: 1;
+}
+
+.create-post-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    /* margin-top: 48px; */
+}
+
+.create-post-container .post-card :nth-child(1) {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.88px;
+    margin: 0 0 8px 0;
+}
+
+.create-post-container .post-card :nth-child(2) {
+    color: #536471;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    margin: 0;
+}
+
+.post-card-bottom-line {
+    width: 100%;
+    height: 1px;
+    opacity: 0.2;
+    background: #000;
+    margin-top: 57px;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width:991px) {
+    .content-container {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        /* margin-top: 170px; */
+        margin-left: 0;
+        padding: 20px 40px 16px 16px;
+        overflow-y: auto;
+        flex: 1;
+    }
+}
